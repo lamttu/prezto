@@ -16,3 +16,6 @@ source ~/.aliases
 
 fpath=($fpath ~/functions)
 autoload -Uz ~/functions/*
+
+# Created by `pipx` on 2021-05-26 08:41:19
+export PATH="$PATH:/home/lamtu/.local/bin"
