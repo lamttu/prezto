@@ -33,6 +33,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
   alias gs='git status'
   alias gfr='git pull -r'
   alias gl='git log --topo-order --graph --decorate --pretty=format:"$_git_log_oneline_format"'
+  alias gcm='git commit -m'
 
 #   alias g='git'
 
